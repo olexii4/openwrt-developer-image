@@ -1,0 +1,12 @@
+schemaVersion: 2.2.0
+metadata:
+  name: openwrt-developer-image
+attributes:
+  controller.devfile.io/storage-type: ephemeral
+  controller.devfile.io/scc: container-build
+components:
+  - name: devtools
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      memoryLimit: 2Gi
+      memoryRequest: 256Mi
