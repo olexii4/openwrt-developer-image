@@ -1,4 +1,4 @@
-FROM quay.io/devfile/universal-developer-image:ubi8-latest
+FROM quay.io/devfile/universal-developer-image:ubi8-9a4668a
 
 # Switching to root user (setting UID to 0) because next
 # commands require root privileges. Universal Developer
